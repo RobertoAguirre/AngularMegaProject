@@ -11,14 +11,18 @@ import { AuthModule } from '@auth0/auth0-angular';
 
 //Angular Material
 import { MatSliderModule } from '@angular/material/slider';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatCardModule} from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatListModule} from '@angular/material/list';
-import {MatIconModule} from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+
 
 
 
@@ -26,6 +30,7 @@ import {MatIconModule} from '@angular/material/icon';
 
 //Feature modules
 import { LoginModule } from './login/login.module';
+import { CentralModule } from './central/central.module';
 
 @NgModule({
   declarations: [
@@ -34,8 +39,8 @@ import { LoginModule } from './login/login.module';
   imports: [
     BrowserModule,
     AuthModule.forRoot({
-      domain:'dev-drhq1y2n.auth0.com',
-      clientId:'tKp7iJryHUGJF9sAIKm2r4qZWckkba2R'
+      domain: 'dev-drhq1y2n.auth0.com',
+      clientId: 'tKp7iJryHUGJF9sAIKm2r4qZWckkba2R'
     }),
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -49,6 +54,9 @@ import { LoginModule } from './login/login.module';
     MatToolbarModule,
     MatListModule,
     MatIconModule,
+    MatExpansionModule,
+    MatTableModule,
+    MatPaginatorModule,
     LoginModule
   ],
   providers: [],

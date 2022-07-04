@@ -7,9 +7,9 @@ export const environment = {
 };
 
 //YOU CAN SET THE VARIBLES ALSO INSIDE THE ENVIRONMENT OBJECT ABOVE
-//export const SERVER_URL = 'http://74.208.145.99:40000/api/';
-export const SERVER_URL = 'http://localhost:40000/api/';
-export const DB_INSTANCE = 'ERPCIE';
+export const SERVER_URL = 'http://74.208.145.99:40000/api/';
+//export const SERVER_URL = 'http://localhost:40000/api/';
+export const DB_INSTANCE = 'ERPWEB';
 
 /*
  * For easier debugging in development mode, you can import the following file
