@@ -31,6 +31,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 //Feature modules
 import { LoginModule } from './login/login.module';
 import { CentralModule } from './central/central.module';
+import { TraxtrapModule } from './traxtrap/traxtrap.module';
 
 @NgModule({
   declarations: [
